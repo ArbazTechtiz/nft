@@ -1,9 +1,13 @@
-import './App.css';
+import "./App.css";
+import { Footer } from "Pages/Footer";
+import NFTRoutes from "routes";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-red-500 bg-gray-300">Tailwind Setup</h1>
+    <div className="App" style={{}}>
+      <NFTRoutes />
+      <Footer />
     </div>
   );
 }
